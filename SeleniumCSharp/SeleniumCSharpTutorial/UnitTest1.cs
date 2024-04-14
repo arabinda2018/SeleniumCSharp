@@ -46,5 +46,12 @@ namespace SeleniumCSharpTutorial
             username.SendKeys("amohanty@cunning-unicorn-ft3w5u.com");
             Thread.Sleep(5000);
         }
+        [Test]
+        public void Test5()
+        {
+            IWebElement username = driver.FindElement(By.XPath("//input[@id='username']"));
+            username.SendKeys("amohanty@cunning-unicorn-ft3w5u.com");
+            Thread.Sleep(5000);
+        }
     }
 }
